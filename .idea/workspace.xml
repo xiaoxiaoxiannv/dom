@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1ce04d6-de29-4b7c-9cf9-085d011e2055" name="Default Changelist" comment="" />
+    <list default="true" id="f1ce04d6-de29-4b7c-9cf9-085d011e2055" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/39/8f18d9b9223785b9a373182228c2b7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/39/8f18d9b9223785b9a373182228c2b7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/af/831b1edfac725528b66d2621ecaa5d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/af/831b1edfac725528b66d2621ecaa5d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f9/28da7bed8b290844a26ca2b7318a61.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f9/28da7bed8b290844a26ca2b7318a61.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dom.1d0b6d56.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom.1d0b6d56.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dom.1d0b6d56.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom.1d0b6d56.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/dom.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1k37NirGzmQJfqI1fUl9OwDKbyD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -29,12 +52,23 @@
       <option name="presentableId" value="Default" />
       <updated>1604917382819</updated>
       <workItem from="1604917385680" duration="3635000" />
-      <workItem from="1604978411999" duration="2800000" />
+      <workItem from="1604978411999" duration="7228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="197" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1604917882519">
