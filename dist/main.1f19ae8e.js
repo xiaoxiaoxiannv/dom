@@ -135,6 +135,10 @@ dom.style(test, {
 });
 console.log(dom.style(test, 'border'));
 dom.style(test, 'border', '1px solid black');
+dom.class.add(test, 'red');
+dom.class.add(test, 'blue');
+dom.class.remove(test, 'blue');
+console.log(dom.class.has(test, 'blue'));
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

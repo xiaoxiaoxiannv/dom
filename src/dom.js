@@ -71,6 +71,17 @@ window.dom = {
                 }
             }
         }
+    },
+    class:{
+        add(node,className){
+            node.classList.add(className)
+        },
+        remove(node,className) {
+            node.classList.remove(className)
+        },
+        has(node,className){
+            return node.classList.contains(className)
+        }
     }
 };
 
