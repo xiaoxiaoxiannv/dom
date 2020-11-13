@@ -91,6 +91,15 @@ window.dom = {
     },
     find(selector, scope) {
         return (scope || document).querySelectorAll(selector)
+    },
+    parent(node){
+        return node.parentNode
+    },
+    children(node){
+        return node.children
+    },
+    siblings(node){
+        return Array.from(node.parentNode.children).filter(n=>n!==node)
     }
 };
 

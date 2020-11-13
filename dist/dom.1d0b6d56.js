@@ -215,6 +215,17 @@ window.dom = {
   },
   find: function find(selector, scope) {
     return (scope || document).querySelectorAll(selector);
+  },
+  parent: function parent(node) {
+    return node.parentNode;
+  },
+  children: function children(node) {
+    return node.children;
+  },
+  siblings: function siblings(node) {
+    return Array.from(node.parentNode.children).filter(function (n) {
+      return n !== node;
+    });
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

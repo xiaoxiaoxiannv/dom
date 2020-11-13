@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/dist/dom.1d0b6d56.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom.1d0b6d56.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/dom.1d0b6d56.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dom.1d0b6d56.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
@@ -52,7 +53,7 @@
       <updated>1604917382819</updated>
       <workItem from="1604917385680" duration="3635000" />
       <workItem from="1604978411999" duration="10473000" />
-      <workItem from="1605188469561" duration="11189000" />
+      <workItem from="1605188469561" duration="13018000" />
     </task>
     <servers />
   </component>

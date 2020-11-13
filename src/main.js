@@ -34,3 +34,6 @@ const testDiv = dom.find('#test')[0]
 console.log(testDiv)
 const test2 = dom.find('#test2')[0]
 console.log(dom.find('.red', test2)[0])
+
+console.log(dom.parent(test))
+console.log(dom.siblings(dom.find('#s2')[0]))
