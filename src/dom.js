@@ -92,14 +92,28 @@ window.dom = {
     find(selector, scope) {
         return (scope || document).querySelectorAll(selector)
     },
-    parent(node){
+    parent(node) {
         return node.parentNode
     },
-    children(node){
+    children(node) {
         return node.children
     },
-    siblings(node){
-        return Array.from(node.parentNode.children).filter(n=>n!==node)
+    siblings(node) {
+        return Array.from(node.parentNode.children).filter(n => n !== node)
+    },
+    next(node) {
+        let x = node.nextSibling
+        while (x && x.nodeType === 3) {
+            x = x.nextSibling
+        }
+        return x
+    },
+    previous(node){
+        let x = node.previousSibling
+        while (x && x.nodeType === 3) {
+            x = x.previousSibling
+        }
+        return x
     }
 };
 

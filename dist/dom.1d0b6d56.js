@@ -226,6 +226,24 @@ window.dom = {
     return Array.from(node.parentNode.children).filter(function (n) {
       return n !== node;
     });
+  },
+  next: function next(node) {
+    var x = node.nextSibling;
+
+    while (x && x.nodeType === 3) {
+      x = x.nextSibling;
+    }
+
+    return x;
+  },
+  previous: function previous(node) {
+    var x = node.previousSibling;
+
+    while (x && x.nodeType === 3) {
+      x = x.previousSibling;
+    }
+
+    return x;
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
