@@ -23,3 +23,9 @@ dom.class.add(test,'red')
 dom.class.add(test,'blue')
 dom.class.remove(test,'blue')
 console.log(dom.class.has(test,'blue'))
+
+const fn = ()=>{
+    console.log('点击了')
+}
+dom.on(test,'click',fn)
+dom.off(test,'click',fn)

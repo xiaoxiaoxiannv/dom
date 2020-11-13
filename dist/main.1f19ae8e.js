@@ -139,6 +139,13 @@ dom.class.add(test, 'red');
 dom.class.add(test, 'blue');
 dom.class.remove(test, 'blue');
 console.log(dom.class.has(test, 'blue'));
+
+var fn = function fn() {
+  console.log('点击了');
+};
+
+dom.on(test, 'click', fn);
+dom.off(test, 'click', fn);
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

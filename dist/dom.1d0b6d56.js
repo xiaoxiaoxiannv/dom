@@ -206,6 +206,12 @@ window.dom = {
     has: function has(node, className) {
       return node.classList.contains(className);
     }
+  },
+  on: function on(node, eventName, fn) {
+    node.addEventListener(eventName, fn);
+  },
+  off: function off(node, eventName, fn) {
+    node.removeEventListener(eventName, fn);
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
