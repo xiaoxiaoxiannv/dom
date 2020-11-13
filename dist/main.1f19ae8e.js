@@ -123,6 +123,8 @@ console.log(div);
 dom.after(test, div);
 var div2 = dom.create("<div id='parent'></div>");
 dom.wrap(test, div2);
+var nodes = dom.empty(window.empty);
+console.log(nodes);
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -151,7 +153,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50912" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56591" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

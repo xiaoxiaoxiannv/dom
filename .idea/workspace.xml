@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1ce04d6-de29-4b7c-9cf9-085d011e2055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/39/8f18d9b9223785b9a373182228c2b7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/39/8f18d9b9223785b9a373182228c2b7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/81/dba13ea8897337e215cd39ca47f1dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/81/dba13ea8897337e215cd39ca47f1dc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/af/831b1edfac725528b66d2621ecaa5d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/af/831b1edfac725528b66d2621ecaa5d.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/f9/28da7bed8b290844a26ca2b7318a61.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f9/28da7bed8b290844a26ca2b7318a61.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -52,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604917382819</updated>
       <workItem from="1604917385680" duration="3635000" />
-      <workItem from="1604978411999" duration="7228000" />
+      <workItem from="1604978411999" duration="10473000" />
+      <workItem from="1605188469561" duration="2730000" />
     </task>
     <servers />
   </component>
@@ -64,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
