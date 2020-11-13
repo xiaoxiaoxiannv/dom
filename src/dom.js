@@ -17,77 +17,80 @@ window.dom = {
         dom.before(node, parent)
         dom.append(parent, node)
     },
-    remove(node){
+    remove(node) {
         node.parentNode.removeChild(node)
         return node
     },
-    empty(node){
+    empty(node) {
         const array = []
         let x = node.firstChild
-        while (x){
+        while (x) {
             array.push(dom.remove(x))
             x = node.firstChild
         }
         return array
     },
-    attr(node,name,value){//重载
-        if(arguments.length === 3){
-            node.setAttribute(name,value)
-        }else if(arguments.length === 2){
+    attr(node, name, value) {//重载
+        if (arguments.length === 3) {
+            node.setAttribute(name, value)
+        } else if (arguments.length === 2) {
             return node.getAttribute(name)
         }
     },
-    text(node,string){//适配
-        if(arguments.length === 2){
-            if('innerText' in node){
+    text(node, string) {//适配
+        if (arguments.length === 2) {
+            if ('innerText' in node) {
                 node.innerText = string
-            }else{
+            } else {
                 node.textContent = string
             }
-        }else if(arguments.length ===1){
-            if('innerText' in node){
+        } else if (arguments.length === 1) {
+            if ('innerText' in node) {
                 return node.innerText
-            }else{
-               return node.textContent
+            } else {
+                return node.textContent
             }
         }
     },
-    html(node,string){
-        if(arguments.length===2){
+    html(node, string) {
+        if (arguments.length === 2) {
             node.innerHTML = string
-        }else if(arguments.length===1){
+        } else if (arguments.length === 1) {
             return node.innerHTML
         }
     },
-    style(node,name,value){
-        if(arguments.length===3){
+    style(node, name, value) {
+        if (arguments.length === 3) {
             node.style[name] = value
-        }else if(arguments.length===2){
-            if(typeof name === 'string'){
+        } else if (arguments.length === 2) {
+            if (typeof name === 'string') {
                 return node.style[name]
-            }else if(name instanceof Object){
-                for(let key in name){
+            } else if (name instanceof Object) {
+                for (let key in name) {
                     node.style[key] = name[key]
                 }
             }
         }
     },
-    class:{
-        add(node,className){
+    class: {
+        add(node, className) {
             node.classList.add(className)
         },
-        remove(node,className) {
+        remove(node, className) {
             node.classList.remove(className)
         },
-        has(node,className){
+        has(node, className) {
             return node.classList.contains(className)
         }
     },
-    on(node,eventName,fn){
-        node.addEventListener(eventName,fn)
+    on(node, eventName, fn) {
+        node.addEventListener(eventName, fn)
     },
-    off(node,eventName,fn){
-        node.removeEventListener(eventName,fn)
+    off(node, eventName, fn) {
+        node.removeEventListener(eventName, fn)
+    },
+    find(selector, scope) {
+        return (scope || document).querySelectorAll(selector)
     }
 };
 

@@ -146,6 +146,10 @@ var fn = function fn() {
 
 dom.on(test, 'click', fn);
 dom.off(test, 'click', fn);
+var testDiv = dom.find('#test')[0];
+console.log(testDiv);
+var test2 = dom.find('#test2')[0];
+console.log(dom.find('.red', test2)[0]);
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

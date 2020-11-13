@@ -212,6 +212,9 @@ window.dom = {
   },
   off: function off(node, eventName, fn) {
     node.removeEventListener(eventName, fn);
+  },
+  find: function find(selector, scope) {
+    return (scope || document).querySelectorAll(selector);
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
