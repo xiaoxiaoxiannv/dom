@@ -14,3 +14,7 @@ const title = dom.attr(test,'title')
 console.log(`title:${title}`)
 
 dom.text(test,'你好,这是新的内容')
+
+dom.style(test,{border:'1px solid red',color:'blue'})
+console.log(dom.style(test,'border'))
+dom.style(test,'border','1px solid black')

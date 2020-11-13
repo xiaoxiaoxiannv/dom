@@ -129,6 +129,12 @@ dom.attr(test, 'title', 'Hi, I am Luna');
 var title = dom.attr(test, 'title');
 console.log("title:".concat(title));
 dom.text(test, '你好,这是新的内容');
+dom.style(test, {
+  border: '1px solid red',
+  color: 'blue'
+});
+console.log(dom.style(test, 'border'));
+dom.style(test, 'border', '1px solid black');
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

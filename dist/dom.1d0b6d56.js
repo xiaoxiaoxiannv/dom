@@ -168,7 +168,7 @@ window.dom = {
       } else {
         node.textContent = string;
       }
-    } else if (arguments === 1) {
+    } else if (arguments.length === 1) {
       if ('innerText' in node) {
         return node.innerText;
       } else {
@@ -177,10 +177,23 @@ window.dom = {
     }
   },
   html: function html(node, string) {
-    if (arguments === 2) {
+    if (arguments.length === 2) {
       node.innerHTML = string;
-    } else if (arguments === 1) {
+    } else if (arguments.length === 1) {
       return node.innerHTML;
+    }
+  },
+  style: function style(node, name, value) {
+    if (arguments.length === 3) {
+      node.style[name] = value;
+    } else if (arguments.length === 2) {
+      if (typeof name === 'string') {
+        return node.style[name];
+      } else if (name instanceof Object) {
+        for (var key in name) {
+          node.style[key] = name[key];
+        }
+      }
     }
   }
 };
