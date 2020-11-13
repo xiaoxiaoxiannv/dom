@@ -153,10 +153,27 @@ window.dom = {
     return array;
   },
   attr: function attr(node, name, value) {
+    //重载
     if (arguments.length === 3) {
       node.setAttribute(name, value);
     } else if (arguments.length === 2) {
       return node.getAttribute(name);
+    }
+  },
+  text: function text(node, string) {
+    //适配
+    if (arguments.length === 2) {
+      if ('innerText' in node) {
+        node.innerText = string;
+      } else {
+        node.textContent = string;
+      }
+    } else if (arguments === 1) {
+      if ('innerText' in node) {
+        return node.innerText;
+      } else {
+        return node.textContent;
+      }
     }
   }
 };
