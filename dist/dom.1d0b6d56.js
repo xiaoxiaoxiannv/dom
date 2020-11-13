@@ -244,6 +244,11 @@ window.dom = {
     }
 
     return x;
+  },
+  each: function each(nodeList, fn) {
+    for (var i = 0; i < nodeList.length; i++) {
+      fn.call(null, nodeList[i]);
+    }
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

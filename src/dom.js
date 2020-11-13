@@ -114,6 +114,11 @@ window.dom = {
             x = x.previousSibling
         }
         return x
+    },
+    each(nodeList,fn){
+        for(let i=0;i<nodeList.length;i++){
+            fn.call(null,nodeList[i])
+        }
     }
 };
 
