@@ -159,6 +159,7 @@ var t = dom.find('#travel')[0];
 dom.each(dom.children(t), function (n) {
   return dom.style(n, 'color', 'red');
 });
+console.log(dom.index(s2));
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
