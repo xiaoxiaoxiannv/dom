@@ -151,6 +151,13 @@ window.dom = {
     }
 
     return array;
+  },
+  attr: function attr(node, name, value) {
+    if (arguments.length === 3) {
+      node.setAttribute(name, value);
+    } else if (arguments.length === 2) {
+      return node.getAttribute(name);
+    }
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

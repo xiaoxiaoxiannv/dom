@@ -8,3 +8,7 @@ dom.wrap(test,div2)
 
 const nodes = dom.empty(window.empty)
 console.log(nodes)
+
+dom.attr(test,'title','Hi, I am Luna')
+const title = dom.attr(test,'title')
+console.log(`title:${title}`)

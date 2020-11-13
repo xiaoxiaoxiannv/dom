@@ -125,6 +125,9 @@ var div2 = dom.create("<div id='parent'></div>");
 dom.wrap(test, div2);
 var nodes = dom.empty(window.empty);
 console.log(nodes);
+dom.attr(test, 'title', 'Hi, I am Luna');
+var title = dom.attr(test, 'title');
+console.log("title:".concat(title));
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
