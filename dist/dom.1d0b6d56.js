@@ -175,6 +175,13 @@ window.dom = {
         return node.textContent;
       }
     }
+  },
+  html: function html(node, string) {
+    if (arguments === 2) {
+      node.innerHTML = string;
+    } else if (arguments === 1) {
+      return node.innerHTML;
+    }
   }
 };
 },{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

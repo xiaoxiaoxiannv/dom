@@ -52,5 +52,12 @@ window.dom = {
             }
         }
     },
+    html(node,string){
+        if(arguments===2){
+            node.innerHTML = string
+        }else if(arguments===1){
+            return node.innerHTML
+        }
+    }
 };
 
